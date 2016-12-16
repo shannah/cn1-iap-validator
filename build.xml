@@ -17,7 +17,7 @@
 	        <arg value="origin"/>
 	        <arg value="master"/>
 	    </exec>
-	    <ant dir="dependencies/cn1-compatlib" target="jar"/>
+	    <ant dir="dependencies/cn1-compatlib" target="jar" inheritall="false"/>
 	    
 	    <!-- Set the correct version number in the pom file -->
 	    
