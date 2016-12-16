@@ -12,14 +12,13 @@ I used the compatlib rather than using the standard JavaEE classes so that it wo
 
 ## Installation
 
-1. Install the [cn1-compatlib project](https://github.com/shannah/cn1-compatlib)
-2. Clone and install this project.
-
 ~~~~
 $ clone https://github.com/shannah/cn1-iap-validator
 $ cd cn1-iap-validator
-$ mvn install
+$ ant install
 ~~~~
+
+The "ant install" step will download the [cn1-compatlib](https://github.com/shannah/cn1-compatlib) project into the dependencies directory, then build it and install it to your local maven repo so that it is available as a transitive dependency.
 
 **Using in a Maven Project**
 

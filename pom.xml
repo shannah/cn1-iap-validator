@@ -7,13 +7,14 @@
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <cn1.compatlib.version>0.0.1-SNAPSHOT</cn1.compatlib.version>
     </properties>
     <dependencies>
         
         <dependency>
             <groupId>com.codename1</groupId>
             <artifactId>cn1-compatlib</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${cn1.compatlib.version}</version>
            
         </dependency>
         <dependency>
